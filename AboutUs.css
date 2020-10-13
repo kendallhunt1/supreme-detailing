@@ -1,0 +1,89 @@
+.aboutUs {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about, .profileCards {
+    width: 40%;
+    height: 90%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about * {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.about h1 {
+    align-items: flex-end;
+}
+
+.about p {
+    align-items: center;
+    height: 50%;
+}
+
+.profileCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileCardWrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.one {
+    background: url('https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/03/GettyImages-1092658864_hero-1024x575.jpg?w=1155&h=1528');
+}
+
+.two {
+    background: url('https://image.shutterstock.com/image-photo/close-portrait-smiling-handsome-man-260nw-1011569245.jpg');
+}
+
+.one, .two {
+    height: 60%;
+    width: 40%;
+    border-radius: 50% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profileCard {
+    height: 48%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background: rgb(240, 87, 81);
+    border-radius: 10px 10px;
+    box-shadow: 2px 2px 6px black;
+}
+
+.cardInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+    color: white;
+    text-shadow: 1px 1px 6px black;
+}

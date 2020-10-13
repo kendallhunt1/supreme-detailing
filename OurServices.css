@@ -1,0 +1,80 @@
+.ourServices {
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(247, 244, 244);
+}
+
+.text {
+    height: 15%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.text h3 {
+    font-size: 1.5em;
+}
+.text p {
+    font-size: 1.2em;
+}
+
+.packages {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.package {
+    width: 32%;
+    border-radius: 5px 5px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 2px 2px 6px black;    
+}
+
+.package h1 {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(240, 87, 81);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.listOfServices {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#Basic {
+    height: 85% !important;
+}
+
+#Complete {
+    height: 93% !important;
+}
+
+#Supreme {
+    height: 100% !important;
+}
